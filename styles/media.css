@@ -1,0 +1,116 @@
+ @media(max-width:1024px) {
+   .about__image {
+     max-width: 474px;
+     max-height: 474px;
+   }
+   .showcase__image {
+     max-width: 200px;
+     max-height: 180px;
+   }
+   .testimonials__card {
+     width: 365px;
+   }
+ }
+ 
+ @media(max-width:768px) {
+   .header__button,
+   .header__nav {
+     display: none;
+   }
+   .header__menu-btn {
+     display: block;
+   }
+   .header__container-inner_burger {
+     justify-content: flex-end
+   }
+   .hero {
+     padding: 125px 0 90px 0;
+   }
+   .hero__title {
+     font-size: 42px;
+   }
+   .hero__subtitle {
+     font-size: 18px;
+   }
+   .about {
+     display: flex;
+     flex-direction: column;
+     padding: 120px 0 45px 0;
+   }
+   .about__title {
+     font-size: 40px;
+   }
+   .about__content {
+     max-width: 100%;
+   }
+   .about__image {
+     width: 400px;
+     height: 400px;
+     margin-top: 40px;
+     margin-left: 0;
+   }
+   .service {
+     align-items: flex-start;
+   }
+   .service__list {
+     width: 50%;
+     height: 205px;
+   }
+   .service__list-item {
+     font-size: 25px;
+   }
+   .showcase {
+     display: flex;
+     flex-direction: column;
+     padding: 25px 0 20px 0;
+   }
+   .showcase__content {
+     max-width: 50%;
+     text-align: center;
+   }
+   .showcase__subtitle {
+     margin-bottom: 20px;
+   }
+   .showcase__image:first-child {
+     margin-left: 0;
+   }
+   .testimonials__title {
+     margin-bottom: 40px;
+     font-size: 40px;
+   }
+   .testimonials__card {
+     width: 100%;
+     padding: 45px;
+     margin-bottom: 35px;
+   }
+ }
+ 
+ @media (max-width:568px) {
+   .service {
+     flex-direction: column;
+   }
+   .service__content {
+     width: 100%;
+     text-align: center;
+     margin-right: 0;
+     margin-bottom: 50px;
+   }
+   .service__list {
+     width: 100%;
+     align-items: center;
+   }
+   .showcase__images {
+     flex-direction: column;
+   }
+   .showcase__image {
+     margin-left: 0;
+     max-width: 100%;
+   }
+   .about__image {
+     max-width: 100%;
+     width: 100%;
+   }
+   .testimonials__cards {
+     padding: 0 20px;
+   }
+ }
