@@ -1,5 +1,5 @@
 # Simple-Landing-Page
-My first work using Flexbox and BEM.
+The work was written using such technologies as SCSS, BEM, Parcel, NPN, Flexbox module, Components.
  
 <img src='preview.png'>
 
